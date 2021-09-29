@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Student Services</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ELearning">E-Learning</string>
+    <string name="ALAQSA_REG">ALAQSA-REG</string>
+    <string name="course">course</string>
+    <string name="Appreciation">Appreciation</string>
+    <string name="mark">mark</string>
+    <string name="Final_mark">Final</string>
+    <string name="works">works</string>
+    <string name="midterm">Midterm</string>
+    <string name="basic_information">Basic information</string>
+    <string name="English_name">English name</string>
+    <string name="address">Address</string>
+    <string name="City">Citezin</string>
+    <string name="street">street</string>
+    <string name="means_of_communication">Means of Communication</string>
+    <string name="Mobile_number">Mobile number</string>
+    <string name="phone">Phone</string>
+    <string name="District">District</string>
+    <string name="Governorate">Governorate</string>
+    <string name="fax">Fax</string>
+    <string name="Work_Phone">Work Phone</string>
+    <string name="emergency_phone">emergency phone</string>
+    <string name="Name_of_emergency_phone">Name of the person (owner of the emergency phone)</string>
+    <string name="Save_edits">Save edits</string>
+    <string name="quarterly_schedule">Quarterly Schedule</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="notifications">Notifications</string>
+    <string name="Messages">Messages</string>
+    <string name="ALAQSA_Universit">Al-Aqsa University</string>
+    <string name="mf">Summer semester of the year 2021/2022</string>
+    <string name="Recording_hours">Recording hours</string>
+    <string name="Hour_price">Hour price</string>
+    <string name="Semester_fee">Semester fee</string>
+    <string name="required_to_pay">Required to pay</string>
+    <string name="paid_up">Paid up</string>
+    <string name="Remain">Remain</string>
+    <string name="exemptions">Exemptions</string>
+    <string name="Quarterly_services">Quarterly services</string>
+    <string name="sign_in">Sign In</string>
+    <string name="Student_ID">Student ID</string>
+    <string name="password">password</string>
+    <string name="Forgot_your_password">Forgot your password ?</string>
+    <string name="What_needs_to_be_done">What needs to be done</string>
+    <string name="completed_hours">Completed Hours</string>
+    <string name="equation_hours">Equation Hours</string>
+    <string name="Recorded_hours">Recorded hours</string>
+    <string name="Incomplete_hours">incomplete hours</string>
+    <string name="Total_hours_completed">Total hours completed</string>
+    <string name="Remaining_hours">Remaining hours</string>
+    <string name="College">College</string>
+    <string name="College_of_Computing_and_Information_Technology">College of Computing and Information Technology</string>
+    <string name="Specialization">Specialization</string>
+    <string name="computer_science">computer science</string>
+    <string name="Academic_level">Academic level</string>
+    <string name="fourth">fourth</string>
+    <string name="Registration_hours">Registration hours</string>
+    <string name="GPA">GPA</string>
+    <string name="Type_of_certificate">Type of certificate</string>
+    <string name="scientific">scientific</string>
+    <string name="High_school_diploma_date">High school diploma date</string>
+    <string name="high_school_average">high school average</string>
+    <string name="Identification_Number">Identification Numbere</string>
+    <string name="Date_of_Birth">Date of Birth</string>
+    <string name="Password_Recovery">Password Recovery</string>
+    <string name="first">first</string>
+    <string name="Reports">Reports</string>
+    <string name="td">Password must contain lowercase and uppercase letters, numbers and symbols</string>
+    <string name="Current_Password">Current Password</string>
+    <string name="new_password">new password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="change_Password">change Password</string>
+    <string name="midterm_exam_schedule">Midterm Exam Schedule</string>
+    <string name="final_exam_schedule">Final Exam Schedule</string>
+    <string name="course_name">course name</string>
+    <string name="Date">Date</string>
+    <string name="Period">Period</string>
+    <string name="the_hall">The Hall</string>
+    <string name="Academic_data">Academic data</string>
+    <string name="plan_number">Plan number</string>
+    <string name="plan_hours">Plan hours</string>
+    <string name="Quarterly_Agenda">Quarterly Agenda</string>
+    <string name="not_specified">Not Specified</string>
+    <string name="Final_exams">Final exams</string>
+    <string name="start_semester">start Semester</string>
+    <string name="end_semester">End Semester</string>
+    <string name="Registration_start">Registration start</string>
+    <string name="Registration_end">Registration End</string>
+    <string name="start_of_adding">start of adding</string>
+    <string name="end_of_adding">end of adding</string>
+    <string name="hours_study">hours study</string>
+    <string name="Guidance_detection">Guidance detection</string>
+    <string name="course_number">course number</string>
+    <string name="name">name</string>
+    <string name="place_of_birth">Place of Birth</string>
+    <string name="Birth_data">Birth data</string>
+    <string name="sex">sex</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="choose_the_language">choose the language</string>
+    <string name="update_informatio">Update Informatio</string>
+    <string name="Citizenship">Citizenship</string>
+    <string name="student_profile">Student_Profile</string>
+    <string name="Other_services">Other services</string>
+    <string name="Logout">Logout</string>
+    <string name="financial_card">Financial card</string>
+    <string name="academic_study">Academic study</string>
+    <string name="Study_plan_and_grades">Study plan and grades</string>
+    <string name="model">model</string>
+    <string name="Notifications_and_messages">Notifications and messages</string>
+    <string name="Deactivate_notifications">Deactivate notifications</string>
+    <string name="Change_the_language">Change the language</string>
+    <string name="sub_time">Appointment</string>
+    <string name="classs">Class</string>
+    <string name="sub_name">Sub Title</string>
+    <string name="sub_code">Sub Code</string>
+
+    <string-array name="group1">
+        <item>item1</item>
+    </string-array>
+    <string-array name="group2">
+        <item>item1</item>
+    </string-array>
+    <string-array name="group3">
+        <item>item1</item>
+    </string-array>
+    <string-array name="app">
+        <item>Summer semester of the year 2021/2022</item>
+        <item>Summer semester of the year 2020/2021</item>
+        <item>Summer semester of the year 2019/2020</item>
+        <item>Summer semester of the year 2018/2019</item>
+    </string-array>
+    <string-array name="app1">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+
+</resources>

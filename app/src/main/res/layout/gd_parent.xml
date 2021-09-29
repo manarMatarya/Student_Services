@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gd_parent_NUMmasak"
+        android:text="ITMM3312"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gd_parent_NAMEmasak"
+        android:text="@string/course"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="4"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gd_parent_daraja"
+        android:text="96"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:background="@drawable/mark_bg"
+
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/gd_parent_sahem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خدمات الطلبة </string>
+    <string name="ELearning">التعليم الالكتروني</string>
+    <string name="ALAQSA_REG">ALAQSA-REG</string>
+    <string name="course">المادة</string>
+    <string name="Appreciation">التقدير</string>
+    <string name="mark">العلامة</string>
+    <string name="Final_mark">النهائي</string>
+    <string name="works">الأعمال</string>
+    <string name="midterm">النصفي</string>
+    <string name="basic_information">البيانات الاساسية</string>
+    <string name="English_name">الاسم بالانجليزية</string>
+    <string name="address">العنوان</string>
+    <string name="City">المدينة</string>
+    <string name="street">الشارع</string>
+    <string name="means_of_communication">وسائل الاتصال</string>
+    <string name="Mobile_number">رقم الجوال</string>
+    <string name="phone">الهاتف</string>
+    <string name="District">الحي</string>
+    <string name="Governorate">المحافظة</string>
+    <string name="fax">فاكس</string>
+    <string name="Work_Phone">هاتف العمل</string>
+    <string name="emergency_phone">هاتف طوارئ</string>
+    <string name="Name_of_emergency_phone">اسم الشخص(صاحب هاتف الطوارئ)</string>
+    <string name="Save_edits">حفظ التعديلات</string>
+    <string name="quarterly_schedule">الجدول الفصلي</string>
+    <string name="Sunday">الأحد</string>
+    <string name="Monday">الاثنين</string>
+    <string name="Tuesday">الثلاثاء</string>
+    <string name="Wednesday">الاربعاء</string>
+    <string name="Thursday">الخميس</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="Messages">الرسائل</string>
+    <string name="ALAQSA_Universit">جامعة الأقصى</string>
+    <string name="Semester_fee">الرسوم الفصلي</string>
+    <string name="mf">الفصل الدراسي الصيفي لعام 2021/2022</string>
+    <string name="Recording_hours">عدد ساعات التسجيل</string>
+    <string name="Hour_price">سعر الساعة</string>
+    <string name="required_to_pay">سعر الساعة</string>
+    <string name="paid_up">المدفوع</string>
+    <string name="Remain">المتبقي</string>
+    <string name="exemptions">الاعفاءات</string>
+    <string name="Quarterly_services">خدمات فصلية</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="Student_ID">رقم الطالب</string>
+    <string name="password">كلمة المرور</string>
+    <string name="Forgot_your_password">نسيت كلمة المرور ؟</string>
+    <string name="What_needs_to_be_done">المطلوب انجازه</string>
+    <string name="completed_hours">ساعات الانجاز</string>
+    <string name="equation_hours">ساعات المعادلة</string>
+    <string name="Recorded_hours">الساعات المسجلة</string>
+    <string name="Incomplete_hours">ساعات الغير مكتمل</string>
+    <string name="Total_hours_completed">اجمالي الساعات المنجزة</string>
+    <string name="Remaining_hours">الساعات المتبقية</string>
+    <string name="College">الكلية</string>
+    <string name="College_of_Computing_and_Information_Technology">كلية الحاسبات وتكنولوجيا المعلومات</string>
+    <string name="Specialization">التخصص</string>
+    <string name="computer_science">علم حاسوب</string>
+    <string name="Academic_level">المستوى الدراسي</string>
+    <string name="fourth">رابع</string>
+    <string name="Registration_hours">ساعات التسجيل</string>
+    <string name="GPA">المعدل التراكمي</string>
+    <string name="Type_of_certificate">نوع الشهادة</string>
+    <string name="scientific">علمي</string>
+    <string name="High_school_diploma_date">تاريخ الشهادة الثانوية</string>
+    <string name="high_school_average">معدل الثانوية العامة</string>
+    <string name="Identification_Number">رقم الهوية</string>
+    <string name="Date_of_Birth">تاريخ الميلاد</string>
+    <string name="Password_Recovery">استرجاع كلمة المرور</string>
+    <string name="first">الأولى</string>
+    <string name="Reports">التقارير</string>
+    <string name="td">يجب أن تحتوي كلمة المرور على حروف صغيرة وكبيرة وأرقام ورموز</string>
+    <string name="Current_Password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="change_Password">تغيير كلمة المرور</string>
+    <string name="midterm_exam_schedule">جدول الإختبارات النصفية</string>
+    <string name="final_exam_schedule">جدول الإختبارات النهائية</string>
+    <string name="course_name">اسم المساق</string>
+    <string name="Date">التاريخ</string>
+    <string name="Period">الفترة</string>
+    <string name="the_hall">القاعة</string>
+    <string name="Academic_data">البيانات الأكاديمية</string>
+    <string name="plan_number">رقم الخطة</string>
+    <string name="plan_hours">ساعات الخطة</string>
+    <string name="Quarterly_Agenda">الأجندة الفصلية</string>
+    <string name="not_specified">غير محددة</string>
+    <string name="Final_exams">الاختبارات النهائية</string>
+    <string name="start_semester">بداية الفصل</string>
+    <string name="end_semester">نهاية الفصل</string>
+    <string name="Registration_start">بداية التسجيل</string>
+    <string name="Registration_end">نهاية التسجيل</string>
+    <string name="start_of_adding">بداية الاضافة</string>
+    <string name="end_of_adding">نهاية الاضافة</string>
+    <string name="hours_study">ساعات الدراسة</string>
+    <string name="Guidance_detection">كشف الإرشاد</string>
+    <string name="course_number">رقم المساق</string>
+    <string name="name">الاسم </string>
+    <string name="place_of_birth">مكان الميلاد </string>
+    <string name="Birth_data">بيانات الميلاد </string>
+    <string name="sex">الجنس </string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="choose_the_language">اختر اللغة</string>
+    <string name="update_informatio">تعديل البيانات الاساسية للطالب</string>
+    <string name="Citizenship">المواطنة</string>
+    <string name="student_profile">ملف الطالب</string>
+    <string name="Other_services">خدمات اخري</string>
+    <string name="Logout">تسجيل خروج</string>
+    <string name="financial_card">البطاقة المالية</string>
+    <string name="academic_study">الدراسة الأكاديمية</string>
+    <string name="Study_plan_and_grades">الخطة الدراسية والدرجات </string>
+    <string name="model">المودل </string>
+    <string name="Notifications_and_messages">الاشعارات والرسائل </string>
+    <string name="Deactivate_notifications">الغاء تفعيل الاشعارات </string>
+    <string name="Change_the_language">تغيير اللغة </string>
+    <string name="sub_time">الموعد</string>
+    <string name="classs">الشعبة</string>
+    <string name="sub_name">اسم المساق</string>
+    <string name="sub_code">كود المساق</string>
+
+
+    <string-array name="app">
+        <item>الفصل الدراسي الصيفي لعام 2021/2022</item>
+        <item>الفصل الدراسي الصيفي لعام 2020/2021</item>
+        <item>الفصل الدراسي الصيفي لعام 2019/2020</item>
+        <item>الفصل الدراسي الصيفي لعام 2018/2019</item>
+    </string-array>
+
+    <string-array name="app1">
+        <item>الانجليزية</item>
+        <item>العربية</item>
+    </string-array>
+</resources>

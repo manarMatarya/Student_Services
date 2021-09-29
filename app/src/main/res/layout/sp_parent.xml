@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<!--   <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/gd_parent"-->
+<!--            android:text="ITMM3312"-->
+<!--            android:gravity="center"-->
+<!--             android:fontFamily="@font/cairo_semibold"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#E91E63"-->
+<!--            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"-->
+<!--            android:layout_weight="1"/>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_parent_NUMmasak"
+        android:text="ITMM3312"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_parent_NAMEmasak"
+        android:text="أمن و حماية الأنظمة"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="4"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_parent_sa3atmasak"
+        android:text="3"
+        android:gravity="start"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_parent_daraja"
+        android:text="96"
+        android:gravity="center"
+        android:background="@drawable/mark_bg"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="2"/>
+
+    <ImageView
+        android:id="@+id/sp_parent_sahem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:fontFamily="@font/cairo_semibold"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

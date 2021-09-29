@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingRight="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+
+        <TextView
+            android:id="@+id/Tvmasak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/cairo_semibold"
+            android:gravity="center"
+            android:text="@string/course" />
+
+        <TextView
+            android:id="@+id/Tvtareekh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11/5/2021"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/cairo_semibold"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/Tvfatra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/cairo_semibold"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/Tvga2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GWH201"
+            android:fontFamily="@font/cairo_semibold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

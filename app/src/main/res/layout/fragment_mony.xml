@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.Monyf"
+    android:orientation="vertical"
+    android:background="#fff">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:context="Fragments.menu">
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/aqsauniv"
+            android:layout_marginLeft="20dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/img"
+            android:text="@string/ALAQSA_Universit"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo_bold"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginLeft="5dp">
+        </TextView>
+        <View
+            android:layout_below="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/line"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"/>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="9dp">
+        <Spinner
+            android:id="@+id/Smsmister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/app"
+             />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="440dp"
+        app:cardCornerRadius="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:cardElevation="9dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Semester_fee"
+                android:textSize="16sp"
+                android:fontFamily="@font/cairo_bold"
+                android:textColor="#000"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:layout_marginLeft="20dp" />
+            <TextView
+                android:id="@+id/Alfasel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mf"
+                android:textSize="15sp"
+                android:fontFamily="@font/cairo"
+                android:textColor="#C6487E"
+                android:layout_marginLeft="230dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g1"/>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Recording_hours"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/cairo_semibold"
+                android:textSize="16sp"
+                android:textColor="#762C59"/>
+                <TextView
+                    android:id="@+id/numberhouretsjel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/cairo"
+                    android:textColor="#000"
+                    android:text="11"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Hour_price"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="16sp"
+                    android:textColor="#762C59"/>
+                <TextView
+                    android:id="@+id/hourprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/cairo"
+                    android:textColor="#000"
+                    android:text="11"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/required_to_pay"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="16sp"
+                    android:textColor="#762C59"/>
+
+                <TextView
+                    android:id="@+id/requiredToPay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:text="11"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paid_up"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="16sp"
+                    android:textColor="#762C59"/>
+
+                <TextView
+                    android:id="@+id/buried"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:text="11"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Remain"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="16sp"
+                    android:textColor="#762C59"/>
+
+                <TextView
+                    android:id="@+id/remaining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:text="11"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exemptions"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="16sp"
+                    android:textColor="#762C59"/>
+
+                <TextView
+                    android:id="@+id/exemptions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:text="10%"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/g7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Quarterly_services"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/cairo_semibold"
+                    android:textSize="16sp"
+                    android:textColor="#762C59"/>
+
+                <TextView
+                    android:id="@+id/quarterlyServices"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:text="11"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
